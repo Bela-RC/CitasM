@@ -15,7 +15,7 @@
     margin:auto;
     margin-left:auto;
     margin-right:auto;
-    width:60%;
+    width:95%;
     top:1px;
     position:relative;
     text-align:center;
@@ -25,8 +25,7 @@
     margin:auto;
     margin-left:auto;
     margin-right:auto;
-    width:60%;
-    top:75px;
+    width:100%;
     position:relative;
     text-align: center;
      }
@@ -46,36 +45,39 @@
     border:3px;
     background-color:lavender;
      }
+     .tabla5{
+    background-color:lightblue;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:20%;
+    position:relative;
+    text-align: center;
+     }
    .img1{
        position: absolute;
        width:50px;
        top:0px;
        left:0px;
-  }
- .img2{
+  } .img2{
        position: absolute;
        width:60px;
-       left:30px;
    }
  .img3{
        position: absolute;
        width:66px;
-       left:195px;
    }
  .img4{
        position: absolute;
        width:73px;
-       left:350px;
    }
  .img5{
        position: absolute;
      width:77px;
-      left:550px;
 }
 .img6{
        position: absolute;
        width:71px;
-     left:780px;
    }
 .img7{
        position: absolute;
@@ -86,30 +88,30 @@
    .img8{
     position: absolute;
     width:72px;
-    top:1200px;
+    left: 0px;
 }
 .img9{
     position: absolute;
     width:70px;
-    top:1200px;
+ 
     left:85px;
 }
 .img10{
     position: absolute;
     width:72px;
-    top:1200px;
+  
     left:170px;
 }
 .img11{
     position: absolute;
     width:72px;
-    top:1200px;
+
     left:255px;
 }
 .img12{
     position: absolute;
     width:72px;
-    top:1200px;
+ 
     left:340px;
 }
 .img13{
@@ -131,10 +133,11 @@
     left:310px;
 }
 .formulario{
-    position: absolute;
+    position:static;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
     width:300px;
-    top:700px;
-    left:600px;
     background-color:thistle;
 }
    h1{
@@ -175,9 +178,6 @@ h2{
    bottom:0;
    height:220px;
    }
-
-
-
 
 
 
