@@ -57,24 +57,39 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <script language="javascript">
-        function ver_imagen()
-        {
-        if (!document.images)
-        return
-        document.images.img.src=
-        document.imagenes.imagen.options [document.imagenes.imagen.selectedIndex].value
-        }
-        </script>
-        <body>
-        <form name="imagenes">
-        <select name="imagen" size="1" onChange="ver_imagen()">
-        <option>Elige imagen</option>
-        <option value="IMG/antes.jpg">Antes</option>
-        <option value="IMG/clinica.png">Despues</option>
-        </select>
-        </form>
-        <img class="img13" src="img1.jpg" name="img">   
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Selector de Imagen</title>
+<style>
+  /* Align image to left without changing layout */
+  img.img13 {
+    display: block;
+    margin-left: 0;
+  }
+</style>
+<script>
+  function ver_imagen() {
+    var select = document.forms['imagenes'].elements['imagen'];
+    var img = document.images['img'];
+    if (!img) return;
+    var selectedValue = select.options[select.selectedIndex].value;
+    if(selectedValue) {
+      img.src = selectedValue;
+    }
+  }
+</script>
+</head>
+<body>
+<form name="imagenes">
+  <select name="imagen" size="1" onchange="ver_imagen()">
+    <option value="">Elige imagen</option>
+    <option value="IMG/antes.jpg">Antes</option>
+    <option value="IMG/clinica.png">Después</option>
+  </select>
+</form>
+<img class="img13" src="img1.jpg" name="img" alt="imagen" />
     </body>
 <br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
