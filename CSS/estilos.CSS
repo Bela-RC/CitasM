@@ -124,10 +124,10 @@
     left:600px;
 }
 .img15 {
-  width: 80px;  
-  height: auto;
-  display: block;
-  margin: 10px auto;
+  position:sticky;
+       width:350px;
+  margin-left:auto;
+    margin-right:auto;
 }
 .formulario{
     position:static;
