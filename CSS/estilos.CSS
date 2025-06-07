@@ -56,6 +56,18 @@
     position:relative;
     text-align: center;
      }
+.tabla6 { 
+        background-color: lightblue;
+         margin: auto;
+          width: 50%; 
+          text-align: center; 
+          position: relative; }
+           .tabla6 img {
+             width:100%; 
+             height: auto; 
+             display: block;
+              margin: 10px auto;
+     }
    .img1{
        position: absolute;
        width:50px;
