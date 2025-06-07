@@ -81,10 +81,10 @@
         position:relative;
        width:71px;
    }
-.img7{
+      .img7{
        position:sticky;
-       width:350px;
-       right:10px;
+       width:320px;
+       right:25px;
    }
  .img8{
     position: absolute;
