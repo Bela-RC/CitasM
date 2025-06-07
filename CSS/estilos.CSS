@@ -179,11 +179,11 @@ h2{
    }
 <style>
   body {
-    display: block;
-    text-align: left;
+    margin: 0;
+    padding: 20px;
   }
 
-  .img13 {
+  form, .img13 {
     display: block;
     margin-left: 0;
   }
