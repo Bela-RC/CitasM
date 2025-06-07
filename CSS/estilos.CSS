@@ -177,11 +177,6 @@ h2{
    .linea5{
        Color:indianred;
    }
-form[name="imagenes"] {
-    position: absolute !important;
-    left: 0 !important;
-    top: 0 !important;
-}
    footer {
    background-color:cadetblue;
    position: sticky;
