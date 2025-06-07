@@ -179,7 +179,12 @@ h2{
    .linea5{
        Color:indianred;
    }
-   
+   <style>
+    form[name="imagenes"] {
+        text-align: left;
+    }
+</style>
+
    footer {
    background-color:cadetblue;
    position: sticky;
