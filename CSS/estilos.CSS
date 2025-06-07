@@ -124,14 +124,9 @@
     width:55px;
     left:234px;
 }
-.img13{
-    position:relative;
-    width:500px;
-    border:3px;
-    height:436;
-left:0px;
- text-align: left;
-}
+.img13 {
+  display: block;
+  margin-left: 0;
 }
 .img14{
     position: absolute;
