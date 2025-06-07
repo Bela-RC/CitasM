@@ -125,9 +125,16 @@
     left:234px;
 }
 .img13 {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   margin-left: 0;
 }
+form {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+}
+
 .img14{
     position: absolute;
     width:300px;
@@ -177,18 +184,6 @@ h2{
    .linea5{
        Color:indianred;
    }
-<style>
-  body {
-    margin: 0;
-    padding: 20px;
-  }
-
-  form, .img13 {
-    display: block;
-    margin-left: 0;
-  }
-</style>
-
    footer {
    background-color:cadetblue;
    position: sticky;
