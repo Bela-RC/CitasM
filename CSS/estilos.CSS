@@ -59,11 +59,11 @@
 .tabla6 { 
         background-color: lightblue;
          margin: auto;
-          width: 50%; 
+          width: 100%; 
           text-align: center; 
           position: relative; }
            .tabla6 img {
-             width:100%; 
+             width:120%; 
              height: auto; 
              display: block;
   text-align: center;
