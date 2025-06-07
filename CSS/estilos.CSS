@@ -179,11 +179,13 @@ h2{
    .linea5{
        Color:indianred;
    }
-   <style>
+ <style>
     form[name="imagenes"] {
-        text-align: left;
-    }
+        position: absolute;
+        left: 0;
+        top: 0; /* o ajusta según tu necesidad */
 </style>
+  }
 
    footer {
    background-color:cadetblue;
