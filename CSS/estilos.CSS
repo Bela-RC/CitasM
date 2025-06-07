@@ -182,14 +182,11 @@ h2{
    .linea5{
        Color:indianred;
    }
- <style>
-    form[name="imagenes"] {
-        position: absolute;
-        left: 0;
-        top: 0; /* o ajusta según tu necesidad */
-</style>
-  }
-
+form[name="imagenes"] {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+}
    footer {
    background-color:cadetblue;
    position: sticky;
