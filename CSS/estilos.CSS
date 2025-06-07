@@ -179,10 +179,8 @@ h2{
    }
 <style>
   body {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px; /* Espacio entre el selector y la imagen */
+    display: block;
+    text-align: left;
   }
 
   .img13 {
