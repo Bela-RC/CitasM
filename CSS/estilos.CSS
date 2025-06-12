@@ -65,8 +65,8 @@
            .tabla6 img {
              width:100%; 
              height: auto; 
+               text-align: center;
              display: block;
-  text-align: center;
               margin: 10px auto;
      }
    .img1{
